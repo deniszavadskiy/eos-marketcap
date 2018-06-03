@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "help": "gh-pages --help",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -r https://github.com/deniszavadskiy/deniszavadskiy.github.io.git -d dist -e eos-marketcap"
+    "deploy": "gh-pages -r https://github.com/deniszavadskiy/deniszavadskiy.github.io.git -b master -d dist -e eos-marketcap"
   },
   "dependencies": {
     "axios": "^0.18.0",
